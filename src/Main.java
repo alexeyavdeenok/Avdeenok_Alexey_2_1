@@ -120,7 +120,7 @@ public class Main {
 
 
     }
-    private static boolean objectCheck(Person person) {
+    private static boolean objectCheck(Person person) { // проверка создания объекта
         int flag = 0;
         if (person.getGender() == null) {
             flag++;
