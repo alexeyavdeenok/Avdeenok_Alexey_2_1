@@ -71,8 +71,13 @@ public class Main {
             break;
           }
         case 6:
-          sortList();
-          break;
+          if (list.isEmpty()) {
+            System.out.println("Нельзя отсортировать пустой список");
+            break;
+          } else {
+            sortList();
+            break;
+          }
         case 7:
           System.out.println("Программа завершена");
           System.exit(0);
